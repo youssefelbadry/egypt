@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="boot/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
+   
+
+
+ <nav class="navbar navbar-expand-lg bg-light fixed-top aa">
+  <div class="container-fluid">
+    <img src="image/klipartz.com.png" alt="" class="flag" />
+    <a class="navbar-brand navt ff text-dark" href="#">EGYPT</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"
+        ><i
+          class="fas fa-bars"
+          style="font-size: larger; color: black"
+        ></i>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-secondary" href="#">About Egypt</a>
+        </li>
+        <div class="dropdown">
+          <a
+            class="btn btn-light dropdown-toggle mx-2 text-secondary"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+          Countries
+          </a>
+
+          <ul
+            class="dropdown-menu text-light"
+            class="nav-link dropdown-toggle text-$gray-800"
+          >
+          <li><a class="dropdown-item" >Alexandria</a></li>
+          <li><a class="dropdown-item">Hurghada</a></li>
+          <li><a class="dropdown-item">Sharm El-Sheikh </a></li>
+          <li><a class="dropdown-item">Luxor</a></li>
+          <li><a class="dropdown-item">Aswan</a></li>
+          <li><a class="dropdown-item">EL Gouna</a></li>
+          <li><a class="dropdown-item">EL Manya</a></li>
+          <li><a class="dropdown-item">Sahel</a></li>
+          <li><a class="dropdown-item">Sahl Hashesh</a></li>
+          <li>
+            <a class="dropdown-item" href="#"></a>
+          </li>
+          </ul>
+        </div>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-secondary"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Touristic places
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" >Pyramids</a></li>
+            <li><a class="dropdown-item">Cairo Tower</a></li>
+            <li><a class="dropdown-item">The Egyptian Museum </a></li>
+            <li>
+              <a class="dropdown-item" href="#"></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+
+        
+        <button class="btn btn-outline-dark navse mx-1" type="submit">Search</button>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-outline-dark"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Login
+        </button>
+
+        <!-- Modal -->
+      </form>
+    </div>
+  </div>
+</nav>
+   <!-- Modal -->
+    <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                      />
+                      <div id="emailHelp" class="form-text">
+                        We'll never share your email with anyone else.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label"
+                        >Password</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="exampleInputPassword1"
+                      />
+                    </div>
+                    <div class="mb-3 form-check">
+                      <div class="form-check form-switch">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          role="switch"
+                          id="flexSwitchCheckDefault"
+                        />
+                        <label
+                          class="form-check-label"
+                          for="flexSwitchCheckDefault"
+                          >Remeber Me</label
+                        >
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                  <button type="button" class="btn btn-primary">Login</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!-- header -->
+    
+<div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img src="image/bg-first.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+        <h2>CAIRO CITY</h2>
+        <p>Cairo is the capital of Egypt and its most important city, and with almost 20 million inhabitants, it's also one of the world's largest cities.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/taba-egypt.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+        <h2>TABA</h2>
+        <p>Taba, situated on the Red Sea's Gulf of Aqaba at the junction of Egypt , is a stone's throw from a truly impressive range of sites.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/wallpaperflare.com_wallpaper (13).jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+        <h2>Sharm El Sheikh</h2>
+        <p>Located on the coast of the Red Sea, Sharm El Sheikh is a popular tourist destination with beautiful beaches, crystal-clear sea and luxury hotels.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item ">
+      <img src="image/iiii.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+        <h2>Hurghada</h2>
+        <p>One of Egypt's most popular tourist destinations, Hurghada has beautiful beaches and perfect crystal-clear waters for diving and snorkelling.</p>
+      </div>
+    </div>
+    
+   
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+  <div class="icons" style="font-size: 35px; cursor: pointer;">
+    <ul>
+      <li><i class="fab fa-facebook text-primary"></i></li>
+      <li><i class="fab fa-instagram instagram-color" width="35" height="35"></i></li>
+      <li><i class="fab fa-twitter" style="color: #1DA1F2" width="35" height="35"></i></li>
+      <li><i class="fab fa-whatsapp" style="color: green;" class="bi bi-whatsapp"></i></li>
+      <li><i class="fab fa-linkedin" style="color: #0077b5 ;" class="bi bi-linkedin"></i></li>
+</ul>
+  </div>
+
+
+</div>
+<!-- introduction  -->
+
+
+
+
+
+<div class="div1 p-4 shadow m-5">
+  <h1 class="pt-2">WELCOME</h1>
+    <p>Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. 
+      Millennia-old monuments sit along the fertile Nile River Valley, including Giza's colossal Pyramids and Great
+       Sphinx as well as Luxor's hieroglyph-lined Karnak Temple and Valley of the Kings tombs. The capital, Cairo, is home to 
+      Ottoman landmarks like Muhammad Ali Mosque and the Egyptian Museum, a trove of antiquities.</p>
+    <button type="button" class="btn btn-outline-dark">Learn More</button>
+</div>
+<hr>
+  
+<div class="se4 p-3 text-center shadow" style="background-color: #F8FAE5;">
+<h2 class="text-center pt-2 text-dark">Translate from English to Arabic</h2>
+</div>
+<div
+  class="sec5 p-5 div3 shadow container mt-4"
+> 
+<h3 class="text-dark d-inline">Write and translate</h3>
+  <strong><a href="" class="text-dark">Press Here</a></strong>
+  <button id="btn2" type="button" class="btn btn-outline-dark ms-4 text-center d-block">copy</button>
+  <div class="form-floating mt-4">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+    <label for="floatingTextarea2">Translate</label>
+  </div>
+</div>
+<hr>
+<h1 class="text-center">Best Places in Cairo</h1>
+
+
+<div class="container player div5" style="height: auto;">
+  <div class="row mx-5">
+ 
+  <div class="bg-image col pl">
+    <div>
+    <img src="image/Moez Street.jpg" width="280px" height="360px">
+  </div>
+    <div class="opacity">
+      <div class="opacity2">
+      <div class="letters">
+        <h5 class="text-light mt-5 ms-3">Moez Street</h5>
+        <small class="text-light ms-4"><i class="far fa-clock"></i> Nov 20,2019</small>
+      <div class="small-image">
+        <img src="image/Moez Street.jpg" width="80px" height="80px">
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="bg-image col pl">
+    <img src="image/Khan Al-Khalily.jpg" width="280px" height="360px">
+    <div class="opacity">
+      <div class="opacity2">
+      <div class="letters">
+        <h5 class="text-light mt-5 ms-3">Khan Al-Khalily </h5>
+        <small class="text-light ms-4"><i class="far fa-clock"></i> Nov 20,2019</small>
+      <div class="small-image">
+        <img src="image/Khan Al-Khalilyyy.jpg" width="80px" height="80px">
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="bg-image col pl">
+    <img src="image/downtwon.jpg" width="280px" height="360px">
+    <div class="opacity">
+      <div class="opacity2">
+      <div class="letters">
+        <h5 class="text-light mt-5 ms-3">DownTown </h5>
+        <small class="text-light ms-4"><i class="far fa-clock"></i> Nov 20,2019</small>
+      <div class="small-image">
+        <img src="image/downtwon.jpg" width="80px" height="80px">
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+      </div>
+        </div>
+<br>
+<hr>
+<br>
+
+<div class="div2 border-0">
+  <h1 class="p-3 text-dark">Popular Destination In Egypt</h1>
+</div>
+<br>
+<div class="container">
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Hurghada city
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Things to do in Hurghada city</strong> The  city of Hurghada is considered to be one of the best resorts extending for 40 km on the red sea coast, it used be a small village counting on fishing and local farming, but at the early of 20th century, the Egyptian government shade the attention on the city for its geographic importance and for being a wonderful sea resort. some renovations and investments were done in 1980, and the name of "Hurghada city" came after a plant grew naturally in the surrounding areas. you may recognize Hurghada city for its aquatic sports, diving, snorkeling and beach activities, but in fact, it is not all about beach because there are some sights and landmark, it is also known for its nightlife and warm weather in which the temperature reaches most of the year 30 °C, but in the summer it reaches over 40 °C and for that it is highly visited during Christmas and new year holidays
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed fs-4 fw-bold " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Sharm El-Sheikh 
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Sharm El Sheikh city is one of the main tourism places in Egypt</strong> Sharm El-Sheikh is the popular Egyptian resort town, which is filled with some of the world’s wonders. Historically, it was included in Israeli territory which was later returned back to Egypt in 1979. Although being uninhabited through most of the time in history, Sharm El-Sheikh gained particular significance due to its strategic location, which provides control over the narrow entrance to the Gulf of Aqaba. The area began to develop as a famous touristic site under the Israeli administration, and the efforts are continued by the Egyptians. The city has recently been a preferred tourist destination with visitors coming from all over the world; as the unique biodiversity of the marine world increases the number of visitors to the region, turning it into a popular destination for snorkeling. Home to hidden gems with its popular beach resorts, rich underwater habitat
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Taba
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong> Taba is tourist importance and the most important landmarks</strong> 
+        At the protectorate is a rare wildlife and the scenic setup is very beautiful with traditional heritage of nomads. The parts of the valley help in protecting wild life like deer, large birds and more. The valleys also have important communities like acacia. One can find here 72 species of plants like Ba'ataran, Ratam and Rimth. Also, the adjacent area homes about 480 species of plants. You can even find here a group of hills which is 1000 m in height. The natural setup of the place is very beautiful and amazing and thus attracts tourists in a very large number. The animals which can be found here include hyrax, Nubian ibex, wolf, hyen
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+<!-- popular destination in italy -->
+
+<div class="se4 p-3 text-center shadow" style="background-color: #F8FAE5;">
+  <h2 class="text-center pt-2 text-dark">Translate from Arabic to English</h2>
+  </div>
+  <div
+  class="sec5 p-5 div3 shadow container mt-4"
+> 
+<h3class="text-dark d-inline">Write and translate</h3>
+  <strong><a href="" class="text-dark">Press Here</a></strong>
+  <button id="btn2" type="button" class="btn btn-outline-dark ms-4 text-center d-block">copy</button>
+  <div class="form-floating mt-4">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+    <label for="floatingTextarea2">Translate</label>
+  </div>
+</div>
+<hr>
+
+<!-- backgroundfixed -->
+<div class="bgfixed mt-4">
+</div>
+
+<!-- hover layers -->
+<div class="container" style="cursor: pointer;">
+    <div class="row mx-5">
+            <div class="card layer1 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+                <div class="layer2">
+        <img src="image/ww.jpg" class="card-img-top mt-4" height="320px">
+        <div class="card-body">
+          <h5 class="card-title">pyramids</h5>
+          <p class="card-text">The largest and most famous of all the pyramids, the Great Pyramid at Giza, was commissioned by Snefru's son, Khufu, known also as Cheops, the later Greek form of his name.  </p>
+          <a href="#" class="btn btn-outline-dark">More details</a>
+        </div>
+      </div>
+        
+      </div>
+
+
+      
+      <div class="card layer1 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+        <div class="layer2">
+<img src="image/musuiem.jpg" class="card-img-top mt-4" height="320px">
+<div class="card-body">
+  <h5 class="card-title">The Egyptian museum</h5>
+  <p class="card-text">The Museum of Egyptian Antiquities, commonly known as the Egyptian Museum, located in Cairo, Egypt, houses the largest collection of Egyptian antiquities in the world.</p>
+  <a href="#" class="btn btn-outline-dark">More details</a>
+</div>
+</div>
+
+</div>
+
+
+
+<div class="card layer1 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+  <div class="layer2">
+<img src="image/karnak.jpg" class="card-img-top mt-4" height="320px">
+<div class="card-body">
+<h5 class="card-title">The Karnak Temple</h5>
+<p class="card-text">Karnak temple is over 2,000 years old. The Karnak, Egypt temple complex spans about 200 acres and was a work in progress for about 1,500 years.</p>
+<a href="#" class="btn btn-outline-dark">More details</a>
+</div>
+</div>
+
+</div>
+
+
+
+
+    </div>
+
+    <div class="row mx-5">
+      <div class="card layer1 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+        <div class="layer2">
+      <img src="image/2022-11-19.jpg" class="card-img-top mt-4" height="320px">
+      <div class="card-body">
+      <h5 class="card-title">Al-Fattah Al-Aleem Masque</h5>
+      <p class="card-text">The mosque is located on the New Middle Ring Road in the New Capital and is considered the 2nd biggest mosque in Egypt after the Islamic Cultural Center (Grand Mosque) and one of the mega-mosques worldwide</p>
+      <a href="#" class="btn btn-outline-dark">More details</a>
+      </div>
+      </div>
+      
+      </div>
+      
+
+      
+      <div class="card layer1 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+          <div class="layer2">
+  <img src="image/nile.jpg" class="card-img-top mt-4" height="320px">
+  <div class="card-body">
+    <h5 class="card-title">Cairo Tower</h5>
+    <p class="card-text">The Cairo Tower or ElGezira tower or ( Brag El qahari) in Arabic language is consider one of the most prominent features of the Egyptian capital</p>
+    <a href="#" class="btn btn-outline-dark">More details</a>
+  </div>
+</div>
+  
+</div>
+
+
+
+
+
+
+
+<div class="card layer1 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+<div class="layer2">
+<img src="image/Alexandria Library.jpg" class="card-img-top mt-4" height="320px">
+<div class="card-body">
+<h5 class="card-title">Alexandria Library</h5>
+<p class="card-text">The Great Library of Alexandria in Alexandria, Egypt, was one of the largest and most significant libraries of the ancient world. The library was part of a larger research institution called the Mouseion.</p>
+<a href="#" class="btn btn-outline-dark">More details</a>
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+
+<div class="row mx-5">
+
+      
+  <div class="card layer1 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+      <div class="layer2">
+<img src="image/Al-Azhar_(inside)_2006.jpg" class="card-img-top mt-4" height="320px">
+<div class="card-body">
+<h5 class="card-title">Al-Azhar Mosque</h5>
+<p class="card-text">The oldest university in the world is built around this ancient mosque, which has been the center of Islamic scholarship since 975 </p>
+<a href="#" class="btn btn-outline-dark">More details</a>
+</div>
+</div>
+
+</div>
+
+
+
+<div class="card layer1 towdivs col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
+<div class="layer2">
+<img src="image/Salah al-den al-ayobi's castle.jpg" class="card-img-top mt-4" height="320px">
+<div class="card-body">
+<h5 class="card-title">Salah al-den al-ayobi's castle</h5>
+<p class="card-text">The Citadel of Sultan Salah al-Din al-Ayyubi (Saladin) is one of the most iconic monuments in Islamic Cairo, and among the most impressive defensive fortresses dating to the Middle Ages.</p>
+<a href="#" class="btn btn-outline-dark">More details</a>
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+<!--backgroundfixed -->
+<div class="backgroundfixed">
+
+</div>
+    <hr>
+
+    <h1 class="text-center"> Places in Egypt</h1>
+     <!-- News Item 1 -->
+     <div class="meedia">
+    <div class="container div-news">
+      <div class="row">
+        
+          <div class="news col-9">
+            <div class="news-image col-3">
+              <img src="image/place1.jpg" alt="News Image" class="iimg">
+            </div>
+            <div class="news-title title-media">
+              <h3 class="card-title">The Museum of Egyptian Antiquities</h3>
+              <p class="card-text"><small class="text-muted">
+                <i class="fas fa-calendar-alt"></i> Mon, May 25th 2020</small></p>
+              <div class="line ms-2"></div>
+              <p class="card-text mt-2 pppp px-2">This famous museum houses the world’s largest collection of ancient Egyption artifacts (more than 120,000 items on display) featuring the famous Tutankhamun collection with its beautiful gold death mask and sarcophagus and the royal Mummy room, which houses an additional eleven Pharaonic dignitaries.</p>
+              <div class="mt-4 ms-3 news-btn buttt">
+                <button><i class="fas fa-podcast"></i> Podcast</button>
+                <button><i class="far fa-clock"></i> 45min</button>
+                <button><i class="fas fa-play third"></i> Watch</button>
+              </div>
+            </div>
+            
+          </div>
+          </div>
+        </div>
+      </div>
+          <!-- News Item 2 -->
+          <div class="meedia">
+    <div class="container div-news">
+      <div class="row">
+          <div class="news mt-5 col-9">
+            <div class="news-title title-mediaa">
+              <h3 class="card-title">Luxor Temple</h3>
+              <p class="card-text"><small class="text-muted">
+                <i class="fas fa-calendar-alt"></i> Mon, May 25th 2020</small></p>
+              <div class="line ms-2"></div>
+              <p class="card-text mt-2 pppp px-2">Luxor Temple, Ipet-resyt “Southern Sanctuary” to the ancient Egyptians, was so called because of its location within ancient Thebes (modern Luxor). It is located around three kilometers to the south of Karnak Temple, to which it was once linked with a processional way bordered with sphinxes. The oldest evidence for this temple dates to the Eighteenth Dynasty (c.1550–1295 BC).</p>
+              <div class="mt-4 ms-3 news-btn buttt">
+                <button><i class="fas fa-podcast"></i> Podcast</button>
+                <button><i class="far fa-clock"></i> 45min</button>
+                <button><i class="fas fa-play"></i> Watch</button>
+              </div>
+            </div>
+            <div class="news-image col-3">
+              <img src="image/place22.jpg" alt="News Image" class="iiiimg" >
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    
+          <!-- News Item 3 -->
+          <div class="meedia">
+          <div class="container div-news">
+            <div class="row">
+          <div class="news mt-5 col-9">
+            <div class="news-image col-3">
+              <img src="image/place3.jpg" alt="News Image" class="iimg">
+            </div>
+            <div class="news-title title-media">
+              <h3 class="card-title"> Al Sahaba Mosque</h3>
+              <p class="card-text"><small class="text-muted">
+                <i class="fas fa-calendar-alt"></i> Mon, May 25th 2020</small></p>
+              <div class="line ms-2"></div>
+              <p class="card-text mt-2 pppp px-2">A modern yet vibrant city, Sharm el Sheikh repays exploration. See the essential sights on this private door-to-door tour. You’ll visit the modern Al Sahaba Mosque with its soaring minarets, see the dancing fountains at SOHO Square, soak up the atmosphere in Old Market, and have time for shopping too. Upgrade to include an authentic local lunch.</p>
+              <div class="mt-4 ms-3 news-btn buttt">
+                <button><i class="fas fa-podcast"></i> Podcast</button>
+                <button><i class="far fa-clock"></i> 45min</button>
+                <button><i class="fas fa-play"></i> Watch</button>
+              </div>
+            </div>
+            
+          </div>
+          </div>
+        </div>
+      </div>
+    
+          <!-- News Item 4 -->
+          <div class="meedia">
+          <div class="container div-news">
+            <div class="row">
+          <div class="news mt-5 col-9">
+            <div class="news-title title-mediaa">
+              <h3 class="card-title">Alexandria Library</h3>
+              <p class="card-text"><small class="text-muted">
+                <i class="fas fa-calendar-alt"></i> Mon, May 25th 2020</small></p>
+              <div class="line ms-2"></div>
+              <p class="card-text mt-2 pppp px-2">Library of Alexandria, the most famous library of Classical antiquity. It formed part of the research institute at Alexandria in Egypt that is known as the Alexandrian Museum (Mouseion, “shrine of the Muses”).
+
+                Libraries and archives were known to many ancient civilizations in Egypt, Mesopotamia, Syria, Asia Minor, and Greece, but the earliest such institutions were of a local and regional nature, primarily concerned with the conservation of their own particular traditions and heritage. </p>
+              <div class="mt-4 ms-3 news-btn butt">
+                <button><i class="fas fa-podcast"></i> Podcast</button>
+                <button><i class="far fa-clock"></i> 45min</button>
+                <button><i class="fas fa-play"></i> Watch</button>
+              </div>
+            </div>
+            <div class="news-image col-3">
+              <img src="image/alex.jpg" alt="News Image" class="iiimg" >
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    <!-- ======================================= -->
+  
+    
+<div class="qq">
+    <div class="container app">
+      <div class="row justify-content-center align-items-center">
+        <h1 class="text-center my-5 ">Join Us</h1>
+        <div class="icon shadow col-sm-12 col-lg-3 mb-3 mx-2" style="border-radius: 10px;">
+          <a href="http://" target="_blank" rel="noopener noreferrer" class="d-block text-center py-3">
+            <i class="fab fa-facebook text-primary" style="font-size: 45px;"></i>
+          </a>
+          <h4 class="text-center mt-2">Facebook</h4>
+        </div>
+
+        <div class="icon shadow col-sm-12 col-lg-3 mb-3 mx-2" style="border-radius: 10px;">
+          <a href="http://" target="_blank" rel="noopener noreferrer" class="d-block text-center py-3">
+            <i class="fab fa-twitter text-primary" style="font-size: 45px;"></i>
+          </a>
+          <h4 class="text-center mt-2">Twitter</h4>
+        </div>
+        <div class="icon shadow col-sm-12 col-lg-3 mb-3 mx-2" style="border-radius: 10px;">
+          <a href="http://" target="_blank" rel="noopener noreferrer" class="d-block text-center py-3">
+            <i class="fab fa-instagram instagram-color" style="font-size: 45px;"></i>
+          </a>
+          <h4 class="text-center mt-2">Instagram</h4>
+        </div>
+        <div class="icon shadow col-sm-12 col-lg-3 mb-3 mx-2" style="border-radius: 10px;">
+          <a href="http://" target="_blank" rel="noopener noreferrer" class="d-block text-center py-3">
+            <i class="fab fa-whatsapp" style="color: green; font-size: 45px;"></i>
+          </a>
+          <h4 class="text-center mt-2">WhatsApp</h4>
+        </div>
+        <div class="icon shadow col-sm-12 col-lg-3 mb-3 mx-2" style="border-radius: 10px;">
+          <a href="http://" target="_blank" rel="noopener noreferrer" class="d-block text-center py-3">
+            <i class="fab fa-linkedin" style="color: #0077b5; font-size: 45px;"></i>
+          </a>
+          <h4 class="text-center mt-2">LinkedIn</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+
+     <!-- Footer -->
+     <div class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="footer-line w-75 bg-dark ms-5"></div>
+                  <img src="image/Salah al-den al-ayobi's castle.jpg" style="width: 80px; height: 80px; border-radius: 50%; margin-top: 20px;">
+                   <h5 class="mt-2">Good Company</h5>
+                  <div class="footer-line w-75 bg-dark ms-5 mt-3"></div>
+                 
+                  <div class="contact-info mt-3">
+                      <p>Tel: 000-000-000</p>
+                      <p>Address: EGYPT</p>
+                      <p>Fax: 000-000-000</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="footer-line w-75 bg-dark ms-5"></div>
+                  <img src="image/footer.jpeg" style="width: 80px; height: 80px; border-radius: 50%; margin-top: 20px;">
+                  <h5 class="mt-2">Important Links</h5>
+                  <div class="footer-line w-75 bg-dark ms-5 mt-3"></div>
+                
+
+                  <div class="contact-info mt-3 text-decoration-underline Links">
+                      <p>Visit Us</p>
+                      <p>Take a Look</p>
+                      <p>Your Health is More Important</p>
+                  </div>
+
+                  
+              </div>
+              <div class="col-md-4">
+                  <div class="footer-line w-75 bg-dark ms-5"></div>
+                  <img src="image/pyramids.jpg" style="width: 80px; height: 80px; border-radius: 50%; margin-top: 20px;">
+                  <h5 class="mt-2">Vision</h5>
+                  <div class="footer-line w-75 bg-dark ms-5 mt-3"></div>
+                  <div class="contact-info mt-3">
+                  <p>Services for all</p>
+                  <p>Provide best services</p>
+                  <p>You will be better than before</p>
+              </div>
+          </div>
+         
+          <div class="row mt-3">
+              <div class="col-12 copyright fs-5">
+                  <hr>
+                  COPYRIGHT © 2020 SHIMAA HUSSIEN EL SAID, GOOD COMPANY. ALL RIGHTS RESERVED.
+                  <hr>
+              </div>
+          </div>
+      </div>
+  </div.f>
+  
+    
+    
+
+ 
+  
+
+
+
+
+    <script src="boot/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
